@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MARKiT Strategy Partners</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <style>
+    :root {
+      --markit-gold: #CAB386;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #111;
+      background-color: #fff;
+      line-height: 1.75;
+    }
+    h1, h2, h3, h4 {
+      font-weight: 700;
+    }
+    .gold {
+      color: var(--markit-gold);
+    }
+    .btn {
+      @apply bg-black text-white px-5 py-2 rounded-full transition hover:bg-[var(--markit-gold)] hover:text-black;
+    }
+  </style>
+</head>
+
+<body class="antialiased">
+
+  <!-- Header -->
+  <header class="flex justify-between items-center px-8 py-6 border-b border-gray-200 bg-white/80 backdrop-blur-sm fixed w-full z-50">
+    <div class="font-bold tracking-wider text-xl">MARKiT</div>
+    <nav class="hidden md:flex space-x-8 text-sm font-medium">
+      <a href="#team" class="hover:text-[var(--markit-gold)]">TEAM</a>
+      <a href="#solutions" class="hover:text-[var(--markit-gold)]">SOLUTIONS</a>
+      <a href="#views" class="hover:text-[var(--markit-gold)]">VIEWS</a>
+      <a href="#contact" class="hover:text-[var(--markit-gold)]">CONTACT</a>
+    </nav>
+    <a href="#contact" class="btn text-sm">聯絡我們</a>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="h-screen flex flex-col justify-center items-center text-center bg-black text-white relative overflow-hidden">
+    <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1549921296-3a6b7a3e21b7?auto=format&fit=crop&w=1400&q=60')] bg-cover bg-center opacity-30"></div>
+    <h1 class="text-5xl md:text-7xl font-bold leading-tight z-10" data-aos="fade-up">STORYTELLING<br>FOR CHANGE</h1>
+    <p class="mt-6 text-base md:text-lg max-w-2xl z-10" data-aos="fade-up" data-aos-delay="150">
+      MARKiT 聚好 是陪伴有理想的事業與組織，邁向品牌新程的顧問夥伴。<br>
+      以跳脫框架的新意，凝聚內部認同，轉化外部認知，讓改變真正發生。
+    </p>
+    <a href="#team" class="mt-10 btn z-10" data-aos="fade-up" data-aos-delay="300">認識聚好團隊</a>
+  </section>
+
+  <!-- What We Do -->
+  <section id="solutions" class="py-24 px-8 md:px-16 bg-white">
+    <h2 class="text-xl font-semibold mb-4 gold" data-aos="fade-up">WHAT WE DO</h2>
+    <h3 class="text-3xl md:text-4xl font-bold mb-10" data-aos="fade-up" data-aos-delay="100">
+      多面向品牌合作情境，涵括品牌與組織發展的各個階段
+    </h3>
+    <div class="grid md:grid-cols-3 gap-12">
+      <div data-aos="fade-up">
+        <h4 class="font-bold text-xl mb-2">Corporate Branding</h4>
+        <p>多角事業統合認知＋企業文化強化認同 = 提升品牌好感</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="150">
+        <h4 class="font-bold text-xl mb-2">Business Branding</h4>
+        <p>利害關係人溝通與事業定位形象整合，強化事業競爭優勢。</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="300">
+        <h4 class="font-bold text-xl mb-2">Product Branding</h4>
+        <p>以品牌架構為核心，打造產品故事與市場溝通策略。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Who We Are -->
+  <section id="team" class="py-24 px-8 md:px-16 bg-gray-50 text-center">
+    <h2 class="text-xl font-semibold gold mb-4" data-aos="fade-up">WHO WE ARE</h2>
+    <h3 class="text-3xl md:text-4xl font-bold mb-6" data-aos="fade-up">Experts to Solve Complexity Issues.<br>Partners to Build Impact Brand.</h3>
+    <p class="max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="150">
+      複雜品牌課題專家，攜手建立永續品牌。
+    </p>
+  </section>
+
+  <!-- How We Work -->
+  <section id="how" class="py-24 px-8 md:px-16 bg-white">
+    <h2 class="text-xl font-semibold gold mb-4" data-aos="fade-up">HOW WE WORK</h2>
+    <h3 class="text-3xl md:text-4xl font-bold mb-12" data-aos="fade-up">Partnership-Driven Consulting Method</h3>
+
+    <div class="grid md:grid-cols-3 gap-12">
+      <div data-aos="fade-up">
+        <h4 class="text-lg font-bold mb-2 gold">Stage A</h4>
+        <p>Recreate Core Value — 深度理解企業課題</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="150">
+        <h4 class="text-lg font-bold mb-2 gold">Stage B</h4>
+        <p>Restructure Communications — 利害關係人溝通</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="300">
+        <h4 class="text-lg font-bold mb-2 gold">Stage C</h4>
+        <p>Reengineer Branded Organization — 品牌運作升級</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section id="whyus" class="py-24 px-8 md:px-16 bg-gray-50">
+    <h2 class="text-xl font-semibold gold mb-4" data-aos="fade-up">WHY US</h2>
+    <h3 class="text-3xl md:text-4xl font-bold mb-12" data-aos="fade-up">Build Sustainable System for Brands</h3>
+
+    <div class="grid md:grid-cols-2 gap-12">
+      <div data-aos="fade-up">
+        <h4 class="font-bold text-lg mb-2 gold">Corporation Experience</h4>
+        <p>顧問團隊具備國際品牌、大型上市公司與新創團隊經驗，深度理解不同階段的企業挑戰與商業模式。</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="150">
+        <h4 class="font-bold text-lg mb-2 gold">Dual Communications</h4>
+        <p>內外認知同步建立，化品牌優勢為動人故事，翻新品牌接觸點。</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="300">
+        <h4 class="font-bold text-lg mb-2 gold">Brand System</h4>
+        <p>結構化重整品牌邏輯，輔以精準論述和概念表達，轉化為清晰品牌系統。</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="450">
+        <h4 class="font-bold text-lg mb-2 gold">Brand Empowerment</h4>
+        <p>以教練式陪跑強化內部落實能力，協助品牌自主運作成長。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Views -->
+  <section id="views" class="py-24 px-8 md:px-16 bg-white text-center">
+    <h2 class="text-xl font-semibold gold mb-4" data-aos="fade-up">VIEWS</h2>
+    <h3 class="text-3xl md:text-4xl font-bold mb-12" data-aos="fade-up">不打高空，實戰經驗的品牌觀點。</h3>
+    <p class="mb-8" data-aos="fade-up" data-aos-delay="150">Your brand deserves better. Ready to rise?</p>
+    <a href="#contact" class="btn" data-aos="fade-up" data-aos-delay="300">聯絡我們</a>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 px-8 md:px-16 bg-black text-white">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-xl font-semibold gold mb-4" data-aos="fade-up">CONTACT</h2>
+      <h3 class="text-3xl font-bold mb-6" data-aos="fade-up">聯絡我們</h3>
+      <p class="mb-2">台北市信義區松高路 9 號 25 樓</p>
+      <p class="mb-2">02-3765-1900</p>
+      <p class="mb-8">hello@markit.co</p>
+      <div class="flex space-x-6" data-aos="fade-up">
+        <a href="#" class="hover:text-[var(--markit-gold)]">Facebook</a>
+        <a href="#" class="hover:text-[var(--markit-gold)]">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm text-gray-400 py-8 border-t border-gray-700 bg-black">
+    © 2025 MARKiT Strategy Partners ｜ 
+    <a href="#" class="hover:text-[var(--markit-gold)]">Terms & Conditions</a>
+  </footer>
+
+  <script>
+    AOS.init({ duration: 800, once: true });
+  </script>
+</body>
+</html>
